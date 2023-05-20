@@ -4,7 +4,7 @@ const HowWorks = () => {
 	return (
 		<Wrapper id="how">
 			<TitleHow>Como funciona?</TitleHow>
-			<p>passo 1</p>
+			<p>Passo 1</p>
 			<p>
 				Lorem ipsum, dolor sit amet consectetur adipisicing
 				elit. Porro dicta rem neque quos id fugit beatae,
@@ -12,7 +12,7 @@ const HowWorks = () => {
 				asperiores placeat fuga cum similique expedita omnis
 				alias.
 			</p>
-			<p>passo 2</p>
+			<p>Passo 2</p>
 			<p>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit.
 				Expedita rerum atque quam, dolorum quae ipsam totam
@@ -20,7 +20,7 @@ const HowWorks = () => {
 				architecto, quos voluptates dolore perferendis illum
 				fuga!
 			</p>
-			<p>passo 3</p>
+			<p>Passo 3</p>
 			<p>
 				Lorem, ipsum dolor sit amet consectetur adipisicing
 				elit. Voluptates ducimus culpa cum veritatis, enim autem
