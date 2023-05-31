@@ -4,12 +4,25 @@ export const ContactContainer = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: #798478;
+	background-color: #7a7a7a;
 	height: 100vh;
+	flex-direction: column;
+`;
+
+export const ContactContent = styled.div`
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
 	flex-direction: column;
 
 	& h2 {
-		font-size: 40px;
+		padding: 1rem;
+		font-size: 60px;
+		color: #212121;
+	}
+
+	& svg {
+		padding: 1rem;
 	}
 `;
 
@@ -21,14 +34,13 @@ export const ContactButton = styled.button`
 	font-weight: bold;
 	border: none;
 	margin: 1rem;
-	
+
 	:active {
 		transform: translateY(0);
 	}
-	
+
 	:hover {
 		transform: translateY(-0.33em);
-		background-color: #70B77E;
 	}
 `;
 
@@ -45,11 +57,10 @@ export const ButtonTop = styled.span`
 
 	:hover {
 		transform: translateY(-0.33em);
-		background-color: #70B77E;
 	}
 
 	a {
 		text-decoration: none;
-		color:  #000000;
+		color: #000000;
 	}
 `;
