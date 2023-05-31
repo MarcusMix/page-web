@@ -21,22 +21,28 @@ const HowWorks = () => {
 					</p>
 				</Steps>
 			</CardInfo>
-			<h4>Passo 2</h4>
-			<Steps>
-				<p>
-					Pagamento do projeto e desenvolvimento ativo junto
-					conosco!
-				</p>
+
+			<CardInfo>
 				<FcMoneyTransfer size={80} />
-			</Steps>
-			<h4>Passo 3</h4>
-			<Steps>
-				<p>
-					Entrega do site, com a hospedagem e com o domínio
-					escolhido pelo cliente.
-				</p>
+				<h4>Passo 2</h4>
+				<Steps>
+					<p>
+						Pagamento do projeto e desenvolvimento ativo
+						junto conosco!
+					</p>
+				</Steps>
+			</CardInfo>
+
+			<CardInfo>
 				<FcShipped size={80} />
-			</Steps>
+				<h4>Passo 3</h4>
+				<Steps>
+					<p>
+						Entrega do site, com a hospedagem e com o
+						domínio escolhido pelo cliente.
+					</p>
+				</Steps>
+			</CardInfo>
 		</Wrapper>
 	);
 };
