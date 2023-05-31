@@ -6,7 +6,7 @@ export const WhyContainer = styled.div`
 	justify-content: center;
 	flex-direction: column;
 	height: 100vh;
-	background-color: #798478;	
+	background-color: #7A7A7A;	
 
 	& h2 {
 		font-size: 40px;
