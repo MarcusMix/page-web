@@ -2,10 +2,10 @@ import { styled } from "styled-components";
 
 export const ContainerHome = styled.div`
 	display: flex;
-	/* justify-content: center; */
 	align-items: center;
 	flex-direction: column;
 	height: 100vh;
+	background-color: #FFFFFA;
 
 	& img {
 		padding: 1rem;
@@ -29,7 +29,7 @@ export const ContainerHome = styled.div`
 			padding: 0.25rem;
 			text-align: center;
 			font-size: 20px;
-			color:  #FED766;
+			color:  #212121;
 		}
 
 		& svg {
@@ -40,7 +40,7 @@ export const ContainerHome = styled.div`
 
 export const MainTitle = styled.h1`
 	font-size: 50px;
-	color: #f2f2f2;
+	color: #212121;
     padding: 1.5rem;
 
 	@media (max-width: 768px) {
