@@ -27,6 +27,31 @@ export const NavbarItems = styled.div`
 
 	:hover {
 		text-decoration: underline;
-		color: #FED766;
+		color: #fed766;
+	}
+
+	@media (max-width: 999px) {
+		position: absolute;
+		top: 8vh;
+		right: 0;
+		width: 50vw;
+		height: 92vh;
+		background-color: #23232e;
+		flex-direction: column;
+		justify-content: space-around;
+		transform: translateX(100%);
+
+		& a {
+			opacity: 0;
+		}
+	}
+`;
+
+export const MobileMenu = styled.div`
+	display: none;
+	cursor: pointer;
+
+	@media (max-width: 999px) {
+		display: block;
 	}
 `;
