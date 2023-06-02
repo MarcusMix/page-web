@@ -1,9 +1,7 @@
-// import { NavbarItems } from "../navbar/navbar.styles";
-
 import { NavLink } from "react-router-dom";
 
 import { GrFormClose } from "react-icons/gr";
-import { Container, ButtonClose } from "./sidebar.styles";
+import { Container } from "./sidebar.styles";
 
 // eslint-disable-next-line react/prop-types
 const Sidebar = ({ active }) => {
@@ -14,9 +12,8 @@ const Sidebar = ({ active }) => {
 
 	return (
 		<Container sidebar={active}>
-			<ButtonClose>
-				<GrFormClose onClick={closeSidebar} size={60} />
-			</ButtonClose>
+			<GrFormClose onClick={closeSidebar} size={40} />
+
 			<p>
 				<NavLink to="/projects">Projetos</NavLink>
 			</p>

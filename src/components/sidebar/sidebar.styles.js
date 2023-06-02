@@ -13,10 +13,7 @@ export const Container = styled.div`
 	justify-content: space-around;
 	flex-direction: column;
 
-	& svg {
-		color: white;
-		cursor: pointer;
-	}
+
 
 	@keyframes showSidebar {
 		from {
@@ -37,10 +34,4 @@ export const Container = styled.div`
     & a:hover {
         text-decoration: underline;
     }
-`;
-
-export const ButtonClose = styled.div`
-	color: white;
-    background-color: white;
-    border-radius: 50%;
 `;

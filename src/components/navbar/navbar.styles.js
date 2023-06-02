@@ -4,10 +4,8 @@ export const NavbarContainer = styled.nav`
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	/* width: 100vw; */
 	height: 80px;
 	background-color: #fb6107;
-	/* #777DA7 */
 
 	& svg {
 		vertical-align: -10%;
@@ -17,15 +15,21 @@ export const NavbarContainer = styled.nav`
 export const NavbarItems = styled.div`
 	display: flex;
 	flex-direction: row;
-	list-style-type: none;
 
-	& a {
-		color: #f2f2f2;
-		padding: 15px;
-		text-decoration: none;
+	& ul {
+		display: flex;
 	}
 
-	:hover {
+	& li {
+		padding: 15px;
+	}
+
+	& a {
+		text-decoration: none;
+		color: #fff;
+	}
+
+	a:hover {
 		text-decoration: underline;
 		color: #fed766;
 	}
@@ -50,6 +54,10 @@ export const NavbarItems = styled.div`
 export const MobileMenu = styled.div`
 	display: none;
 	cursor: pointer;
+
+	& svg {
+		color: #fff;
+	}
 
 	@media (max-width: 999px) {
 		display: block;
