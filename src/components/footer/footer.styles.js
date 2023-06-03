@@ -26,7 +26,9 @@ export const FooterItems = styled.div`
 	padding: 0 2.5rem;
 
 	@media (max-width: 768px) {
-		font-size: 1rem;
+		font-size: 0.8rem;
+		padding-top: 10px;
+		text-align: center;
 	}
 
 	a {
