@@ -15,10 +15,16 @@ export const CardInfo = styled.div`
 	justify-content: space-evenly;
 	transition: all 300ms;
 	background-color: #177E89;
-	width: 500px;
-	height: 400px;
+	max-width: 500px;
+	max-height: 400px;
+	min-height: 350px;
+	min-width: 200px;
 	padding: 1rem;
 	margin: 1rem;
+
+	/* @media screen {
+		
+	} */
 
 	h4 {
 		font-size: 30px;
