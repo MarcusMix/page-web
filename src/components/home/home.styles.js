@@ -7,9 +7,9 @@ export const ContainerHome = styled.div`
 	height: 100vh;
 	background-color: #fffffa;
 
-	@media (max-width: 768px) {
+	/* @media (max-width: 768px) {
 		height: 100%;
-	}
+	} */
 
 	& h3 {
 		font-size: 20px;
@@ -31,7 +31,8 @@ export const ContainerHome = styled.div`
 
 		@media (max-width: 768px) {
 			max-width: 70%;
-			max-width: 300px;
+			max-width: 350px;
+			margin: 20% auto;
 		}
 	}
 
