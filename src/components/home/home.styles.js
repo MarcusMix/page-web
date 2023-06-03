@@ -4,8 +4,12 @@ export const ContainerHome = styled.div`
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	height: 100%;
+	height: 100vh;
 	background-color: #fffffa;
+
+	@media (max-width: 768px) {
+		height: 100%;
+	}
 
 	& h3 {
 		font-size: 20px;
