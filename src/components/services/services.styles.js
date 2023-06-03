@@ -7,6 +7,7 @@ export const ServicesContent = styled.div`
 	flex-direction: column;
 	height: 100vh;
 	background-color: #7a7a7a;
+	text-align: justify;
 
 	& h1 {
 		padding: 1rem;
