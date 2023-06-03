@@ -13,9 +13,11 @@ export const WhyContainer = styled.div`
 		font-size: 40px;
 		margin: 1rem;
 		color: #11151C;
+		text-align: center;
 	}
 
 	& h3 {
 		margin: .25rem;
+		text-align: center;
 	}
 `;
