@@ -5,16 +5,27 @@ export const ContainerHome = styled.div`
 	align-items: center;
 	flex-direction: column;
 	height: 100vh;
-	background-color: #FFFFFA;
+	background-color: #fffffa;
+
+	& h3 {
+		font-size: 20px;
+		color: #000;
+		padding-bottom: 1rem;
+		margin: 0 20%;
+
+		@media (max-width: 1200px) {
+			font-size: 15px;
+			margin: 0.25rem 10%;
+		}
+	}
 
 	& img {
-		padding: 1rem;
-		max-width: 30%;
-        margin: 3rem auto;
+		padding: 0.25rem;
+		max-width: 500px;
+		margin: 3rem auto;
 
 		@media (max-width: 768px) {
-			max-width: 75%;
-			margin: auto;
+			max-width: 70%;
 		}
 	}
 
@@ -29,7 +40,12 @@ export const ContainerHome = styled.div`
 			padding: 0.25rem;
 			text-align: center;
 			font-size: 20px;
-			color:  #212121;
+			color: #212121;
+
+			@media (max-width: 768px) {
+				font-size: 16px;
+				margin: 0 10%;
+			}
 		}
 
 		& svg {
@@ -39,11 +55,13 @@ export const ContainerHome = styled.div`
 `;
 
 export const MainTitle = styled.h1`
-	font-size: 50px;
+	font-size: 40px;
 	color: #212121;
-    padding: 1.5rem;
+	padding-top: 1.5rem;
+	margin: 0 20%;
 
-	@media (max-width: 768px) {
-		font-size: 35px;
+	@media (max-width: 1200px) {
+		font-size: 25px;
+		margin: 0 10%;
 	}
 `;
