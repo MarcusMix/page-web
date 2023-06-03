@@ -5,12 +5,18 @@ import { AiOutlineGlobal } from "react-icons/ai";
 import { BsRocketTakeoffFill } from "react-icons/bs";
 import { IoMdHeart } from "react-icons/io";
 
-import Image from '../../assets/edited.png'
+import Image from "../../assets/edited.png";
 
 const Home = () => {
 	return (
 		<ContainerHome>
-			<MainTitle>Tenha seu site em pouco tempo!</MainTitle>
+			<MainTitle>
+				Faça seu site rápido e de forma segura!
+			</MainTitle>
+			<h3>
+			Dê à sua marca o palco que ela merece com um site profissional e impactante
+			</h3>
+			
 			<ul>
 				<li>
 					<AiOutlineGlobal /> Crie seu site e seja conhecido
@@ -29,7 +35,7 @@ const Home = () => {
 					<FaPencilAlt /> 100% personalizado.
 				</li>
 			</ul>
-            <img src={Image} alt="" />
+			<img src={Image} alt="" />
 		</ContainerHome>
 	);
 };
