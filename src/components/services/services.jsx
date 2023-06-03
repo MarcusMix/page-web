@@ -67,10 +67,19 @@ const Services = () => {
 			</p>
 			<h2>Sites Personalizados</h2>
 			<p>
-				Se você tem uma visão única para o seu site ou precisa
-				de recursos específicos que não são atendidos pelos
-				nossos serviços pré-existentes, nossa equipe está pronta
-				para criar um site personalizado
+				Nosso serviço de criação de sites personalizados é a
+				solução perfeita para atender às necessidades únicas da
+				sua marca. Nossa equipe especializada trabalhará em
+				estreita colaboração com você para entender sua visão e
+				objetivos, criando um design exclusivo que reflita sua
+				identidade. Além do design visualmente atraente,
+				implementaremos recursos personalizados e
+				funcionalidades específicas para atender às suas
+				demandas. Garantimos que seu site personalizado seja
+				altamente responsivo, proporcionando uma experiência
+				perfeita em todos os dispositivos. Deixe sua marca se
+				destacar com um site que representa verdadeiramente quem
+				você é.
 			</p>
 		</ServicesContent>
 	);
