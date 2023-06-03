@@ -4,20 +4,31 @@ export const NavbarContainer = styled.nav`
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	flex-direction: column;
 	height: 80px;
 	background-color: #fb6107;
+	padding: 10px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 
 	& svg {
 		vertical-align: -10%;
+	}
+
+	@media (max-width: 999px) {
+		h1 {
+			font-size: 20px;
+		}
 	}
 `;
 
 export const NavbarItems = styled.div`
 	display: flex;
 	flex-direction: row;
+	align-self: center;
 
 	& ul {
 		display: flex;
+		list-style: none;
 	}
 
 	& li {
@@ -35,31 +46,22 @@ export const NavbarItems = styled.div`
 	}
 
 	@media (max-width: 999px) {
-		position: absolute;
-		top: 8vh;
-		right: 0;
-		width: 50vw;
-		height: 92vh;
-		background-color: #23232e;
-		flex-direction: column;
-		justify-content: space-around;
-		transform: translateX(100%);
-
-		& a {
-			opacity: 0;
+		font-size: 14px;
+		h1 {
+			display: none;
 		}
 	}
 `;
 
-export const MobileMenu = styled.div`
-	display: none;
-	cursor: pointer;
+// export const MobileMenu = styled.div`
+// 	display: none;
+// 	cursor: pointer;
 
-	& svg {
-		color: #fff;
-	}
+// 	& svg {
+// 		color: #fff;
+// 	}
 
-	@media (max-width: 999px) {
-		display: block;
-	}
-`;
+// 	@media (max-width: 999px) {
+// 		display: block;
+// 	}
+// `;
