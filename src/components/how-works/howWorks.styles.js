@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 
 export const TitleHow = styled.h2`
 	text-align: center;
-	color: #177E89;
+	color:  #000;
 	font-size: 60px;
 	padding: 2rem;
 `;
@@ -14,7 +14,7 @@ export const CardInfo = styled.div`
 	align-items: center;
 	justify-content: space-evenly;
 	transition: all 300ms;
-	background-color: #177E89;
+	background-color: #fb6107;
 	max-width: 500px;
 	max-height: 400px;
 	min-height: 350px;
@@ -36,8 +36,9 @@ export const Wrapper = styled.div`
 	align-items: center;
 	flex-direction: column;
 	margin: auto;
-	background-color: #FFFFFA;
-	
+	background-color: #fffffa;
+		color:  #fdfdfd;
+
 	p {
 		font-size: 20px;
 		text-align: center;
