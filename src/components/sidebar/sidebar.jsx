@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 
 import { GrFormClose } from "react-icons/gr";
 import { Container } from "./sidebar.styles";
@@ -15,7 +14,9 @@ const Sidebar = ({ active }) => {
 			<GrFormClose onClick={closeSidebar} size={40} />
 
 			<p>
-				<NavLink to="/projects">Projetos</NavLink>
+			<a href="#services" onClick={closeSidebar}>
+					Nossos serviços
+				</a>
 			</p>
 			<p>
 				<a href="#why" onClick={closeSidebar}>
