@@ -4,6 +4,7 @@ import Why from "../../components/why/why";
 import HowWorks from "../../components/how-works/howWorks";
 import Contact from "../../components/contact/contact";
 import Footer from "../../components/footer/footer";
+import Services from "../../components/services/services";
 // import Examples from "../../components/examples/examples";
 
 const Homepage = () => {
@@ -11,6 +12,7 @@ const Homepage = () => {
 		<>
 			<Navbar />
 			<Home />
+			<Services/>
 			<Why />
 			<HowWorks />
 			{/* <Examples /> */}
