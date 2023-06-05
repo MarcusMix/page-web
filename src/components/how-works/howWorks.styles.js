@@ -3,7 +3,7 @@ import { styled } from "styled-components";
 export const TitleHow = styled.h2`
 	text-align: center;
 	color:  #000;
-	font-size: 60px;
+	font-size: 40px;
 	padding: 2rem;
 `;
 
