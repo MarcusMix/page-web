@@ -15,6 +15,7 @@ export const CardInfo = styled.div`
 	justify-content: space-evenly;
 	transition: all 300ms;
 	background-color: #fb6107;
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,138,70,1) 0%, rgba(255,210,60,1) 100%);
 	max-width: 500px;
 	max-height: 400px;
 	min-height: 350px;

@@ -6,9 +6,11 @@ export const NavbarContainer = styled.nav`
 	justify-content: space-between;
 	flex-direction: column;
 	height: 80px;
-	background-color: #fb6107;
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,138,70,1) 0%, rgba(255,210,60,1) 100%);
 	padding: 10px;
 	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+	position: sticky;
+	top: 0;
 
 	& svg {
 		vertical-align: -10%;
